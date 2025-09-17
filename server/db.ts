@@ -6,69 +6,82 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+        question: 'The most popular sport in the world.',
+        answer: 'What is soccer?',
     },
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+            'This country is denoted by this flag.',
+        imgSrc: " https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+        answer: 'What is Canada?',
     },
+    
     {
         points: 300,
-        question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+        question: 'A homemade is shown in this image.',
+        imgSrc: 'https://res.cloudinary.com/mel-science/video/upload/fl_progressive:steep,q_auto:good,so_0,w_940/b1bh1lo8sdknn4wqljmt.jpg',
+        answer: 'What is a lemon battery?',
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'This type of school follows the curriculum of public schools but is privately run.',
+        answer: 'What is a charter school?',
     }
 ]);
 
 const presentQuestions: Question[] =
     sortQuestions([
         {
-            points: 200,
+            points: 200,    
             question:
-                'What kind of rock is this?',
-            imgSrc: 'https://madera.objects.liquidweb.services/photos/16842-half-dome-closeup-from-glacier-point-steve-montalto-hmi-Rectangle-600x400.jpg',
-            answer: 'Granite',
+                'This is the game where the max hp of a player is 10% of this question\'s point value.',
+            answer: 'What is Minecraft?',
         },
         {
             points: 100,
-            question:
-                'What is this Cafe called?',
-            imgSrc: 'https://lh3.googleusercontent.com/p/AF1QipNsmB0ugJeJxYVrBKpRkNkyiEa6cKLamFZ4r0M=s1360-w1360-h1020',
-            answer: 'Chaotic Good',
+            question:'The safer version of sword fighting',
+            answer: 'What is fencing?',
         },
         {
             points: 300,
-            question: 'What programming language is the below code?',
+            question: 'This programming language is commonly used for web development.',
             imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+            answer: 'What is Javascript?',
         },
         {
             points: 400,
             question:
-                'Who painted this?',
-            imgSrc:
-                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1tCOwOdOeYcp5iflCvvW95qCqpmNUo-TMIt3ndxzsxzmgmH18iClIIQLPO48ojPg5Rts2AUm9rZBeVPcjnjrjGaLSzCwbipQotY4EhOk3tUoHJjJyZjTqfY5s9MZ5eSkGrrqmom4JXUdHEqE-Ts8E9i-SuFf9xEukJcFBs5NuOhe6ANdODMFYzyV_Q/s16000/Unfinished.jpg",
-            answer: 'Keith Haring',
+                'This Frizzleburg barber cuts the hair of all in Frizzleburg if they do not cut it themselves.',
+            answer: 'Who is Barett?',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
-        imgSrc:
-            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-        answer: 'Italy',
-    }
+            'This club is a great way to start entrepreneurship,  in high school using computer science. ',
+        answer: 'What is Startup and Services?',
+    },
+    {
+        points: 200,
+        question:
+            'This is the predecessor to the Ryzen 7 9800x3d. ',
+        answer: 'What is the Ryzen 7 7800x3d?',
+    },
+    {
+        points: 300,
+        question:
+            'This Ivy League school is the third oldest institution of higher education in the United States?',
+        answer: 'What is Yale University?',
+    },
+     {
+        points: 400,
+        question:
+            'This version of the block game makes xbow carting more consistent but often falsely flags Grim Anticheat.',
+        answer: 'What is 1.21?',
+    },
+    
 ]);
 
 
