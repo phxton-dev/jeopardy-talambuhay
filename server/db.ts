@@ -8,6 +8,7 @@ const pastQuestions: Question[] = sortQuestions([
         points: 100,
         question: 'The most popular sport in the world.',
         answer: 'What is soccer?',
+        // Significant because it was my first and most played sport
     },
     {
         points: 200,
@@ -15,6 +16,7 @@ const pastQuestions: Question[] = sortQuestions([
             'This country is denoted by this flag.',
         imgSrc: " https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
         answer: 'What is Canada?',
+        // Significant because I used to ski a lot in Canada
     },
     
     {
@@ -22,11 +24,13 @@ const pastQuestions: Question[] = sortQuestions([
         question: 'A homemade is shown in this image.',
         imgSrc: 'https://res.cloudinary.com/mel-science/video/upload/fl_progressive:steep,q_auto:good,so_0,w_940/b1bh1lo8sdknn4wqljmt.jpg',
         answer: 'What is a lemon battery?',
+        // Significant because I made this in 1st grade and won a science fair with it
     },
     {
         points: 400,
         question: 'This type of school follows the curriculum of public schools but is privately run.',
         answer: 'What is a charter school?',
+        // Significant because I attended a charter school for middle school
     }
 ]);
 
@@ -37,49 +41,56 @@ const presentQuestions: Question[] =
             question:
                 'This is the game where the max hp of a player is 10% of this question\'s point value.',
             answer: 'What is Minecraft?',
+        // Significant because I play Minecraft a lot
         },
         {
             points: 100,
             question:'The safer version of sword fighting',
             answer: 'What is fencing?',
+        // Significant because I fence competitively
         },
         {
             points: 300,
-            question: 'This programming language is commonly used for web development.',
-            imgSrc: '/programming_language.png',
-            answer: 'What is Javascript?',
+            question: 'This instrument has 88 keys and is often used in classical music.',
+            answer: 'What is a piano?',
+        // Significant because I play piano 
         },
         {
             points: 400,
             question:
                 'This Frizzleburg barber cuts the hair of all in Frizzleburg if they do not cut it themselves.',
             answer: 'Who is Barett?',
+        // Significant because this is a redescription of Russell's paradox, a concept in logic and set theory that I learned about in school
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question:
-            'This club is a great way to start entrepreneurship,  in high school using computer science. ',
+        question: 'This will become the largest club at my school.',
+        imgSrc: '\\sas.png',
         answer: 'What is Startup and Services?',
+    // Significant because this will become the largest school club in the future
     },
     {
         points: 200,
         question:
             'This is the predecessor to the Ryzen 7 9800x3d. ',
         answer: 'What is the Ryzen 7 7800x3d?',
+    // Significant because I plan to build a PC with this CPU
     },
     {
         points: 300,
         question:
             'This Ivy League school is the third oldest institution of higher education in the United States?',
         answer: 'What is Yale University?',
+    // Significant because I plan to apply to this school
     },
      {
         points: 400,
         question:
             'This version of the block game makes xbow carting more consistent but often falsely flags Grim Anticheat.',
         answer: 'What is 1.21?',
+    // Significant because I plan to play this version of Minecraft competitively
     },
     
 ]);
@@ -87,15 +98,15 @@ const futureQuestions: Question[] = sortQuestions([
 
 const categories = [
     {
-        title: 'My Past',
+        title: 'Eli\'s Past',
         questions: pastQuestions
     },
     {
-        title: 'My Present',
+        title: 'Eli\'s Present',
         questions: presentQuestions
     },
     {
-        title: 'My Future',
+        title: 'Eli\'s Future',
         questions: futureQuestions
     }
 ];
